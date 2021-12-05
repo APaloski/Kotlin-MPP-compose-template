@@ -6,7 +6,7 @@ plugins {
     id("org.jetbrains.compose")
 }
 
-group = "me.adam"
+group = "io.paloski.pkg"
 version = "1.0"
 
 repositories {

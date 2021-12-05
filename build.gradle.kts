@@ -11,7 +11,7 @@ buildscript {
     }
 }
 
-group = "me.adam"
+group = "io.paloski.pkg"
 version = "1.0"
 
 allprojects {
