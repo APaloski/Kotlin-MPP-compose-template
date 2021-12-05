@@ -2,7 +2,6 @@ object Deps {
 
     object JetBrains {
         object Kotlin {
-            // __KOTLIN_COMPOSE_VERSION__
             private const val VERSION = "1.5.31"
             const val gradlePlugin = "org.jetbrains.kotlin:kotlin-gradle-plugin:$VERSION"
             const val testCommon = "org.jetbrains.kotlin:kotlin-test-common:$VERSION"
@@ -12,7 +11,6 @@ object Deps {
         }
 
         object Compose {
-            // __LATEST_COMPOSE_RELEASE_VERSION__
             private const val VERSION = "1.0.0"
             const val gradlePlugin = "org.jetbrains.compose:compose-gradle-plugin:$VERSION"
         }
@@ -33,6 +31,13 @@ object Deps {
 
         object Activity {
             const val activityCompose = "androidx.activity:activity-compose:1.3.0"
+        }
+    }
+
+    object Kotlinx {
+        object Coroutines {
+            private const val VERSION = "1.5.2"
+            const val core = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${VERSION}"
         }
     }
 

@@ -1,4 +1,4 @@
-package io.paloski.hs.common
+package io.paloski.pkg.compose
 
 actual fun getPlatformName(): String {
     return "Desktop"

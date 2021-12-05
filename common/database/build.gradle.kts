@@ -10,8 +10,16 @@ sqldelight {
     }
 }
 
+description = "Contains a multiplatform database that can be used for local storage"
+
 kotlin {
     sourceSets {
+        commonMain {
+            dependencies {
+                api(Deps.Kotlinx.Coroutines.core)
+            }
+        }
+
         androidMain {
             dependencies {
                 implementation(Deps.Squareup.SQLDelight.androidDriver)

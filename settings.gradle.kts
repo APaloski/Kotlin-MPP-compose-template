@@ -15,5 +15,7 @@ include(":android")
 include(":desktop")
 include(":common")
 include(":common:database")
+include(":common:main-screen")
+include(":common:material-compose-ui")
 include(":web")
 
