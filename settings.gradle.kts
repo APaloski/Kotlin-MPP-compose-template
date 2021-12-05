@@ -14,5 +14,6 @@ rootProject.name = "HS-Art-Compose"
 include(":android")
 include(":desktop")
 include(":common")
-include(":browser")
+include(":common:database")
+include(":web")
 

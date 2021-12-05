@@ -2,7 +2,7 @@ import org.jetbrains.compose.compose
 
 plugins {
     kotlin("multiplatform")
-    id("org.jetbrains.compose") version "1.0.0"
+    id("org.jetbrains.compose")
     id("com.android.library")
 }
 
@@ -70,7 +70,12 @@ kotlin {
 //        }
 //        val jsTest by getting
     }
+
+    sourceSets.all {
+        languageSettings.optIn("kotlin.ExperimentalMultiplatform")
+    }
 }
+
 
 android {
     compileSdkVersion(30)
@@ -95,3 +100,5 @@ compose.desktop {
         }
     }
 }
+
+
