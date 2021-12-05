@@ -8,7 +8,6 @@ pluginManagement {
     }
     
 }
-rootProject.name = "HS-Art-Compose"
 
 
 include(":android")
